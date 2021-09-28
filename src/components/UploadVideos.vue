@@ -48,7 +48,7 @@ export default {
             file.cancel()
         }
     },
-	mounted(){
+    mounted(){
         // init resumablejs on mount
 		this.r = new Resumable({
 			target:'/api/upload-advanced',
@@ -93,7 +93,7 @@ export default {
                 localFile.progress = progress
 
         })
-	}
+    }
 }
 </script>
 
